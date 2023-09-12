@@ -153,7 +153,6 @@ article.main-content {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -166,8 +165,8 @@ article.main-content {
 
 
 .flexbox-column-1, .flexbox-column-2 {
-  width: 68%;
-  height: 248px;
+  height: 68%;
+  width: 248px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -179,14 +178,14 @@ article.main-content {
 }
 
 .flexbox-column-3 {
+  color: #f4f4f4;
+  background-color: #4C7364;
   width: 28%;
   height: 496px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around; /* Espacio horizontal alrededor */
-  color: #f4f4f4;
-  background-color: #4C7364;
 }
 
 .flexbox-column, .flexbox-column-3 {
@@ -195,7 +194,7 @@ article.main-content {
   align-items: center; /* Alinea verticalmente el contenido*/
   padding: 10px; 
   margin: 10px;
-  justify-content: space-around; /* Espacio horizontal alrededor */
+
 }
 
 
