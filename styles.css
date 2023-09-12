@@ -154,15 +154,10 @@ article.main-content {
   height: 100%;
   display: flex;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+ 
 }
-
-.flexbox-column{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around; /* Espacio horizontal alrededor */
-}
-
 
 .flexbox-column-1, .flexbox-column-2 {
   height: 68%;
@@ -188,7 +183,7 @@ article.main-content {
   justify-content: space-around; /* Espacio horizontal alrededor */
 }
 
-.flexbox-column, .flexbox-column-3 {
+.flexbox-column-1, .flexbox-column-2, .flexbox-column-3 {
 
   display: flex;
   align-items: center; /* Alinea verticalmente el contenido*/
