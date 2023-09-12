@@ -149,43 +149,53 @@ article.main-content {
 
 
 
-aside {
+.aside {
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-}
-aside.complementary-content {
-
-  background-color: #C2A78F;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #8AA68E ;
-  padding: 5px;
+  flex-direction: row;
+  align-items: center;
 }
 
-.flex-container-seccion2, .flex-container-seccion2-big {
+.flexbox-column{
   display: flex;
-  align-items: center; /* Alinea verticalmente el contenido*/
-  justify-content:space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around; /* Espacio horizontal alrededor */
+}
+
+
+.flexbox-column-1, .flexbox-column-2 {
+  width: 68%;
+  height: 248px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 10px;
   color: #f4f4f4;
   background-image: linear-gradient(120deg, #8AA68E , #4C7364 );
   padding: 10px; 
-  margin: 10px;
+  margin-top: 10px;
 }
 
-.flex-container-seccion2 {
-  width: 68%;
-  height: 248px;
-  justify-content:flex-start; /* Espacio horizontal alrededor */
-  flex-direction: column; /* Los flexbox quedan a la izquierda dentro del flex grande y en columnas */
-}
-
-.flex-container-seccion2-big {
+.flexbox-column-3 {
   width: 28%;
-  font-size: 496px;
-  font-size: 10px;
-  justify-content: space-around; 
-  align-self: flex-end; /* Alinea el flex-container-seccion2-big a la derecha */
+  height: 496px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around; /* Espacio horizontal alrededor */
+  color: #f4f4f4;
+  background-color: #4C7364;
+}
+
+.flexbox-column, .flexbox-column-3 {
+
+  display: flex;
+  align-items: center; /* Alinea verticalmente el contenido*/
+  padding: 10px; 
+  margin: 10px;
+  justify-content: space-around; /* Espacio horizontal alrededor */
 }
 
 
