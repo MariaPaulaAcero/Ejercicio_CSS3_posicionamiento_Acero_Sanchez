@@ -49,6 +49,16 @@ header {
 
 
 nav {
+
+  background-color: #9E8A73   ;
+  font-family: Georgia;
+  color: #f4f4f4;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+
+}
+nav.secciones-nav {
   width: 100%;
   height: 80px;
   background-color: #9E8A73   ;
@@ -60,6 +70,51 @@ nav {
 
 }
 
+nav.nav-index {
+  width: 100%;
+  height: 150px;
+}
+
+.status-index {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #ccc;
+  background-color: #F2F2F2;
+  opacity: 3;
+  background: linear-gradient(135deg, #8AA68E 25%, transparent 25%) -19px ;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui;
+  color:#F2F2F2; ;
+  font-size: 20px;
+  max-width: 300px;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.status:hover {
+  transform: scale(0.9);
+  box-shadow: 0 0 30px #8AA68E ;
+}
+
+#container-index div {
+  width: 100%;
+  max-width:700px;
+  height: 150%;
+  margin-right:300px;
+  margin-top: 30px;
+
+}
+
+#container-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px; 
+ 
+}
 
 article.main-content {
   display: flex;
@@ -111,6 +166,7 @@ aside.complementary-content {
 .flex-container-seccion2, .flex-container-seccion2-big {
   display: flex;
   align-items: center; /* Alinea verticalmente el contenido*/
+  justify-content:space-around;
   color: #f4f4f4;
   background-image: linear-gradient(120deg, #8AA68E , #4C7364 );
   padding: 10px; 
@@ -120,8 +176,7 @@ aside.complementary-content {
 .flex-container-seccion2 {
   width: 68%;
   height: 248px;
-  
-  justify-content: space-around; /* Espacio horizontal alrededor */
+  justify-content:flex-start; /* Espacio horizontal alrededor */
   flex-direction: column; /* Los flexbox quedan a la izquierda dentro del flex grande y en columnas */
 }
 
@@ -219,6 +274,10 @@ h5 {
 a {
   text-decoration: none;
 }
+
+
+
+
 
 
 
